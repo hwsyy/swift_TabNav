@@ -16,6 +16,9 @@
 		E3DA1B491B2FE1BE0048A6A9 /* MainNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA1B451B2FE1BE0048A6A9 /* MainNavViewController.swift */; };
 		E3DA1B4A1B2FE1BE0048A6A9 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA1B461B2FE1BE0048A6A9 /* MainTabBar.swift */; };
 		E3DA1B4B1B2FE1BE0048A6A9 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA1B471B2FE1BE0048A6A9 /* MainTabBarController.swift */; };
+		E3DA1B4D1B2FE3300048A6A9 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3DA1B4C1B2FE3300048A6A9 /* Home.storyboard */; };
+		E3DA1B4F1B2FE3B30048A6A9 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3DA1B4E1B2FE3B30048A6A9 /* Me.storyboard */; };
+		E3DA1B511B2FE3EF0048A6A9 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3DA1B501B2FE3EE0048A6A9 /* Message.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,9 @@
 		E3DA1B451B2FE1BE0048A6A9 /* MainNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavViewController.swift; sourceTree = "<group>"; };
 		E3DA1B461B2FE1BE0048A6A9 /* MainTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
 		E3DA1B471B2FE1BE0048A6A9 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		E3DA1B4C1B2FE3300048A6A9 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		E3DA1B4E1B2FE3B30048A6A9 /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
+		E3DA1B501B2FE3EE0048A6A9 /* Message.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +146,7 @@
 		E3DA1B3D1B2FE1450048A6A9 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E3DA1B4C1B2FE3300048A6A9 /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -147,6 +154,7 @@
 		E3DA1B3F1B2FE1450048A6A9 /* Me */ = {
 			isa = PBXGroup;
 			children = (
+				E3DA1B4E1B2FE3B30048A6A9 /* Me.storyboard */,
 			);
 			path = Me;
 			sourceTree = "<group>";
@@ -154,6 +162,7 @@
 		E3DA1B401B2FE1450048A6A9 /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				E3DA1B501B2FE3EE0048A6A9 /* Message.storyboard */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -252,7 +261,10 @@
 			files = (
 				E3DA1B481B2FE1BE0048A6A9 /* Main.storyboard in Resources */,
 				E3DA1B261B2FE0AD0048A6A9 /* LaunchScreen.xib in Resources */,
+				E3DA1B4F1B2FE3B30048A6A9 /* Me.storyboard in Resources */,
 				E3DA1B231B2FE0AD0048A6A9 /* Images.xcassets in Resources */,
+				E3DA1B511B2FE3EF0048A6A9 /* Message.storyboard in Resources */,
+				E3DA1B4D1B2FE3300048A6A9 /* Home.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

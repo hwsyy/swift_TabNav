@@ -40,6 +40,7 @@ class MainTabBarController: UITabBarController {
     
     // Add child Controller
     func addchildController(name: String, _ title: String, _ imageName: String, _ highlight: String) {
+        
         let sb = UIStoryboard(name: name, bundle: nil)
         let vc = sb.instantiateInitialViewController() as! UINavigationController
         
