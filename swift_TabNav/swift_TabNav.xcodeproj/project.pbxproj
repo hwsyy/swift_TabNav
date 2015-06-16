@@ -22,6 +22,7 @@
 		E3DA1B5A1B2FE6840048A6A9 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DA1B551B2FE6840048A6A9 /* SVIndefiniteAnimatedView.m */; };
 		E3DA1B5B1B2FE6840048A6A9 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E3DA1B571B2FE6840048A6A9 /* SVProgressHUD.bundle */; };
 		E3DA1B5C1B2FE6840048A6A9 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DA1B591B2FE6840048A6A9 /* SVProgressHUD.m */; };
+		E3DA1B601B2FE8450048A6A9 /* ExtensionFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DA1B5F1B2FE8450048A6A9 /* ExtensionFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		E3DA1B571B2FE6840048A6A9 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		E3DA1B581B2FE6840048A6A9 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		E3DA1B591B2FE6840048A6A9 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		E3DA1B5F1B2FE8450048A6A9 /* ExtensionFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				E3DA1B3D1B2FE1450048A6A9 /* Home */,
 				E3DA1B3F1B2FE1450048A6A9 /* Me */,
 				E3DA1B401B2FE1450048A6A9 /* Message */,
+				E3DA1B5D1B2FE80F0048A6A9 /* Tools（工具类） */,
 				E3DA1B521B2FE6640048A6A9 /* Libs（第三方） */,
 			);
 			path = Classes;
@@ -209,6 +212,23 @@
 				E3DA1B591B2FE6840048A6A9 /* SVProgressHUD.m */,
 			);
 			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		E3DA1B5D1B2FE80F0048A6A9 /* Tools（工具类） */ = {
+			isa = PBXGroup;
+			children = (
+				E3DA1B5E1B2FE83E0048A6A9 /* Extension */,
+			);
+			name = "Tools（工具类）";
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		E3DA1B5E1B2FE83E0048A6A9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E3DA1B5F1B2FE8450048A6A9 /* ExtensionFile.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,6 +338,7 @@
 				E3DA1B4A1B2FE1BE0048A6A9 /* MainTabBar.swift in Sources */,
 				E3DA1B1E1B2FE0AD0048A6A9 /* ViewController.swift in Sources */,
 				E3DA1B4B1B2FE1BE0048A6A9 /* MainTabBarController.swift in Sources */,
+				E3DA1B601B2FE8450048A6A9 /* ExtensionFile.swift in Sources */,
 				E3DA1B5C1B2FE6840048A6A9 /* SVProgressHUD.m in Sources */,
 				E3DA1B491B2FE1BE0048A6A9 /* MainNavViewController.swift in Sources */,
 				E3DA1B1C1B2FE0AD0048A6A9 /* AppDelegate.swift in Sources */,
