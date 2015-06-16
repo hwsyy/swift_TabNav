@@ -2,8 +2,8 @@
 //  ExtensionFile.swift
 //  Chatbei
 //
-//  Created by Scor on 15/5/4.
-//  Copyright (c) 2015年 Scor. All rights reserved.
+//  Created by Bing Ma on 15/5/4.
+//  Copyright (c) 2015年 SpongeBob_Han All rights reserved.
 //
 
 import UIKit
@@ -13,15 +13,12 @@ extension UIColor {
     
     //主题色
     class func applicationMainColor() -> UIColor {
-//        return UIColor(red: 238/255, green: 64/255, blue: 86/255, alpha:1)
         return UIColor.whiteColor()
     }
     
     //第二主题色
     class func applicationSecondColor() -> UIColor {
-        return UIColor(red: 0/255, green: 155/255, blue: 255/255, alpha:1)
-//        return UIColor(patternImage: UIImage(named: "banner.png")!)
-    }
+        return UIColor(red: 0/255, green: 155/255, blue: 255/255, alpha:1)    }
     
     //警告颜色
     class func applicationWarningColor() -> UIColor {
@@ -38,6 +35,7 @@ extension UIColor {
 
 // Navagation拓展
 extension UIViewController {
+    
     func viewDidLoadForChangeTitleColor() {
         self.viewDidLoadForChangeTitleColor()
         if self.isKindOfClass(UINavigationController.classForCoder()) {
@@ -58,7 +56,7 @@ extension UIViewController {
 }
 
 // button
-extension UIButton{
+extension UIButton {
     
     //按钮可以样式
     func setButtonCanUse(button : UIButton){
@@ -78,8 +76,9 @@ extension UIButton{
 
 }
 
-
-extension UIView{
+// UIView
+extension UIView {
+    
     func setViewCornerRadius(view:UIView ,radius:CGFloat){
         view.layer.cornerRadius = radius
         view.layer.masksToBounds = true
